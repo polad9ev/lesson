@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	background: url(../img/bg.jpg) no-repeat top / cover ;
+	
+}
+
+p {
+	font-size: 25px;
+	color: #dd0000;
+}
+
+a {
+	text-decoration: none;
+	color: #dd0000;
+
+}
+
+h1 {
+	font-size: 60px;
+	color: #dd0000;
+}
+
+.ava {
+	margin-top: 70px;
+	width: 10%;
+	border-radius: 100%;
+}

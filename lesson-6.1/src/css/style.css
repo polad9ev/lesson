@@ -1,0 +1,59 @@
+.img {
+	text-align: center;
+	border: 10px dashed gold;
+}
+
+p {
+	padding: 0 52px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 17px;
+	color: gold;
+}
+
+p > img {
+	border: 10px groove #FFA500;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: #FFD700;
+}
+
+body {
+	background: url(../img/bg.jpg) repeat-y top;
+}
+
+span {
+	font-weight: 700;
+	font-style: italic;
+	color: #FFFF00;
+}
+
+.top-a {
+	color: blue;
+}
+
+.logo img {
+	margin: auto;
+	padding-top: 10px;
+	text-align: center;
+	border: none;
+}
+
+.list {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	color: #FFFF00;
+	opacity: 0.7;	
+}
+
+.list a {
+	text-decoration: none;
+	font-weight: 900;
+	box-shadow: 3px 2px 2px 0px black;
+	color: #FFD700;
+	opacity: 0.7;	
+}
+

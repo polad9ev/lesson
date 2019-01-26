@@ -1,0 +1,103 @@
+body {
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	background: url(../img/bg.jpg) repeat-y top / cover;
+	background-attachment: fixed;
+
+}
+
+p {
+	font-size: 25px;
+	color: #dd0000;
+}
+
+a {
+	text-decoration: none;
+	color: #dd0000;
+
+}
+
+h1 {
+	font-size: 60px;
+	color: #dd0000;
+}
+
+.item {
+	font-size: 40px;
+	color: #dd0000;
+	padding-bottom: 40px;
+
+}
+
+.avatar {
+	margin-top: 30px;
+	margin-bottom: -20px;
+	width: 10%;
+	border-radius: 100%;
+	border: 15px groove #dd0000;
+}
+
+
+
+
+/*Responsive*/
+
+
+/* 993px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	
+	.avatar {
+		width: 20%;
+	}
+}
+
+/* 769px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.avatar {
+		width: 25%;
+		border: 15px groove #dd0000;
+	}
+
+}
+
+/* 577px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.avatar {
+		width: 30%;
+		border: 10px groove #dd0000;
+	}
+}
+
+/* 320px - 576px*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	
+	.avatar {
+		width: 35%;
+	}
+
+	h1{
+		font-size: 32px;
+	}
+	
+	.title {
+		font-size: 28px;
+	}
+	
+	.lessons a {
+		font-size: 22px;
+	}
+}

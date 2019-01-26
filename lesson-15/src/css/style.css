@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Exo 2', sans-serif; }
+
+.section .offer {
+  text-align: center; }
+  .section .offer h1 {
+    color: #6c1c02;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 45px; }
+  .section .offer h2 {
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 29px;
+    line-height: 24px; }
+    .section .offer h2 span {
+      font-weight: 700; }
+
+.section .cards {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 975px; }
+  .section .cards .card {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 271px;
+    height: 502px;
+    box-shadow: 0 9px 21px rgba(0, 0, 0, 0.05);
+    margin: 25px; }
+    .section .cards .card img {
+      padding-top: 44px;
+      padding-bottom: 24px; }
+    .section .cards .card .card__name {
+      color: #393939;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 18px; }
+      .section .cards .card .card__name span {
+        font-size: 14px;
+        color: #7f7f7f; }
+    .section .cards .card .card__price {
+      font-size: 18px;
+      margin-bottom: px; }
+      .section .cards .card .card__price span {
+        font-weight: 700;
+        font-size: 20px; }
+  .section .cards .card-1 .card__price, .section .cards .card-4 .card__price {
+    margin-top: 35px; }
+  .section .cards .card-2 .card__price, .section .cards .card-5 .card__price {
+    margin-top: 31px; }
+  .section .cards .card-3 .card__price, .section .cards .card-6 .card__price {
+    margin-top: 15px; }
+
+.btn {
+  text-align: center; }
+
+button {
+  box-shadow: 0 9px 21px rgba(0, 0, 0, 0.15);
+  background-color: #e70000;
+  border: none;
+  cursor: pointer;
+  padding: 27px 51px;
+  margin-top: 23px;
+  color: #ffffff;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 100px; }
+
+@media (min-height: 768px) and (max-width: 992px) {
+  .cards {
+    width: 650px; } }
+
+@media (max-width: 728px) {
+  .cards {
+    width: 450px; }
+    .cards .card {
+      min-width: 400px; }
+  button {
+    margin-bottom: 0; } }
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .cards {
+    width: 330px; }
+    .cards .card {
+      min-width: 280px;
+      margin: auto; } }
+
+@media (min-width: 320px) and (max-width: 320px) {
+  .section .cards .card {
+    width: 100%;
+    margin: 0; } }

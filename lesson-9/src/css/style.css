@@ -1,0 +1,28 @@
+h1 {
+	text-align: center;
+	margin-bottom: 85px;
+	font-family: Tahoma;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.section {
+	padding-top: 70px;
+}
+
+.img {
+	min-height: 82px;
+	text-align: center;
+	margin-bottom: 21px;
+}
+
+.descr {
+	text-align: center;
+	padding-bottom: 97px;
+	color: #333333;
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: 700;
+}
